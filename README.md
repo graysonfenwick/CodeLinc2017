@@ -1,5 +1,0 @@
-#Codelinc
-
-#team FeedYosef
-
-#CodeLinc

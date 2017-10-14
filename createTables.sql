@@ -7,7 +7,7 @@ CREATE TABLE person (
 	PhoneNum Integer(10) NOT NULL,
 	MonthlyGrossIncome Integer NOT NULL,
 	NumInHousehold Integer NOT NULL,
-	ReceiveFoodStamp BIT NOT NULL
+	ReceiveFoodStamp BIT NOT NULL,
 	DateFoodReceived Date,
-	CONSTRAINT PRIMARY KEY(Email)
+	CONSTRAINT PRIMARY KEY (Email)
 );
