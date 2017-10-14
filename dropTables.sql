@@ -1,0 +1,5 @@
+SET FOREIGN_KEY_CHECKS = 0;
+
+drop table person;
+
+SET FOREIGN_KEY_CHECKS = 1;
