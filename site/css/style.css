@@ -62,13 +62,13 @@ h1 {
 .login-form {
     width: 100%;
     margin: 2.5em auto 0;
-    background: url(../images/1.jpg)no-repeat center 0px;
+    /*background: url(../images/1.jpg)no-repeat center 0px;*/
     background-size: cover;
-	-webkit-box-shadow: -6px 6px 2px 1px #470047; 
-	-moz-box-shadow: -6px 6px 2px 1px #470047;  
-	-o-box-shadow: -6px 6px 2px 1px #470047;
-	-ms-box-shadow: -6px 6px 2px 1px #470047;
-    box-shadow: -6px 6px 2px 1px #470047;
+	-webkit-box-shadow: -6px 6px 2px 1px #1a1a1a; 
+	-moz-box-shadow: -6px 6px 2px 1px #1a1a1a;  
+	-o-box-shadow: -6px 6px 2px 1px #1a1a1a;
+	-ms-box-shadow: -6px 6px 2px 1px #1a1a1a;
+    box-shadow: -6px 6px 2px 1px #1a1a1a;
 }
 .agile-row {
     padding: 2em;
@@ -100,6 +100,7 @@ h1 {
 }
 .login-form input[type="password"].password{ 
 	margin-top:0.3em;
+	border-bottom: 1px solid #c7c7c7;
 } 
 .login-form p {
     font-size: 1em;
@@ -146,8 +147,8 @@ h1 {
 .login-form input[type="submit"] {
     font-size: 1em;
     color: #fff;
-    background: #FF5722;
-    border: 2px solid #FF5722;
+    background: #169ac3;
+    border: 2px solid #117fa0;
     outline: none;
     cursor: pointer;
     padding: .6em 1em;
@@ -155,9 +156,9 @@ h1 {
     width: 100%; 
 }
 .login-form input[type="submit"]:hover {
-    background: transparent;
-    color: #FF5722;
-    border-color:#FF5722 ;
+    background: #47c5eb;
+    color: white;
+    border-color:#169ac3;
     transition: 0.5s all ;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -178,7 +179,7 @@ h1 {
     padding-top: 2em;
 }
 .login-agileits-bottom p.w3ls-line a{
-	color:#FF5722;
+	color:#169ac3;
 	margin-left: 5px;
 }
 .login-agileits-bottom p.w3ls-line a:hover{
@@ -193,7 +194,7 @@ h1 {
 	transition:.5s all;
 }
 .login-agileits-bottom p a:hover {
-    color: #FF5722;
+    color: #169ac3;
 }
 .login-form .login-agileits-top.sign-up input[type="submit"] {
     margin-bottom: 2.1em;
@@ -215,7 +216,7 @@ h1 {
 } 
 /*-- sign up form --*/ 
 .login-form.login-form-two {
-    background: url(../images/2.jpg)no-repeat center 0px;
+    background: #404040/*url(../images/2.jpg)no-repeat center 0px;*/
     background-size: cover;
 }
 .login-agileits-bottom p.w3ls-line.w3ls-line2 {
@@ -229,6 +230,7 @@ h1 {
 }
 .profile-w3grid2 .login-form input[type="email"].email {
     border: none;
+	border-top: 1px solid #c7c7c7;
 }
 /*-- //subscribe --*/
 .input-row.input-row3 {
