@@ -83,7 +83,7 @@ h1 {
     font-size: 0.9em;
     color: #fff;
     padding: 0.8em 1em;
-    margin: 0;
+    position : relative;
     width: 89.6%;
     border: none;
     -webkit-appearance: none;
