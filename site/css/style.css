@@ -216,8 +216,15 @@ h1 {
 } 
 /*-- sign up form --*/ 
 .login-form.login-form-two {
-    background: #404040/*url(../images/2.jpg)no-repeat center 0px;*/
+	width: 50%;
+    margin: 2.5em auto 0;
+	background: #404040;
     background-size: cover;
+	-webkit-box-shadow: -6px 6px 2px 1px #1a1a1a; 
+	-moz-box-shadow: -6px 6px 2px 1px #1a1a1a;  
+	-o-box-shadow: -6px 6px 2px 1px #1a1a1a;
+	-ms-box-shadow: -6px 6px 2px 1px #1a1a1a;
+    box-shadow: -6px 6px 2px 1px #1a1a1a;
 }
 .login-agileits-bottom p.w3ls-line.w3ls-line2 {
     margin: 2.4em 0 0;
