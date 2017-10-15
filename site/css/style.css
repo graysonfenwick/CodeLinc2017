@@ -38,30 +38,22 @@ h1 {
     color: #fff;
     font-weight: 100;
 	font-family: 'Cormorant Garamond', serif;
-	border: 2px solid #fff;
-	width: 57%;
 }
 ul {
-	list-style-type: none;
+	position: fixed;
+	
+	display: block;
+	margin-bottom: 10px;
 }
 li {
-	display: inline;
+	margin-top: 10px;
+	text-align: center;
 }
 a{
 	color: white;
 }
-.navBar{
-	padding-top: 10px;
-}
-.button{ 	
-	
-	padding-top: 10px;
-	padding-left: 170px;
-	padding-bottom: 10px;
-	padding-right: 170px;
-	
-	display: inline;
-	text-align: center;
+.button{
+	padding: 2px 30px 2px 30px;
 	border: 2px solid #117fa0;
 	background-color: #169ac3;
 }
