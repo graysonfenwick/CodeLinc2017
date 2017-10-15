@@ -40,8 +40,6 @@ h1 {
 	font-family: 'Cormorant Garamond', serif;
 }
 ul {
-	position: fixed;
-	top:0px;
 	display: block;
 	margin-bottom: 10px;
 }
@@ -54,6 +52,10 @@ a{
 }
 p{
 	color: white;
+}
+.btnDiv{
+	position: fixed;
+	top:0px;
 }
 .button{
 	margin-right: 20px;
