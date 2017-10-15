@@ -78,8 +78,8 @@ h1 {
     padding: 1em 1em;
     border: 1px solid #c7c7c7; 
 }
-.login-form input[type="text"],.login-form input[type="email"], .login-form input[type="password"], .login-form input[type="income"] {
-    outline: none;
+.login-form input{
+	outline: none;
     font-size: 0.9em;
     color: #fff;
     padding: 0.8em 1em;
@@ -101,14 +101,29 @@ h1 {
 .login-form input[type="password"].password{ 
 	margin-top:0.3em;
 	border-bottom: 1px solid #c7c7c7;
-} 
-.login-form input[type="income"].income{
+}
+.login-form div.text-input-row{
+	display: -webkit-flex;
+	display: flex;
+}
+.login-form input.text-input{
 	width: 25%;
-	float: left;
 	margin-top: 0.5em;
-    display: block;
+	margin-left: 4px;
 	border-bottom: 1px solid #c7c7c7;
 }
+.login-form input.text-input-long{
+	width: 89.6%;
+	margin-top: 0.5em;
+	border-bottom: 1px solid #c7c7c7;
+}
+.login-form input.text-input-mid{
+	width: 40.6%;
+	margin-top: 0.5em;
+	margin-left: 4px;
+	border-bottom: 1px solid #c7c7c7;
+}
+
 .login-form p {
     font-size: 1em;
     color: #fff;
