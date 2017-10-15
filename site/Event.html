@@ -8,20 +8,16 @@ Author: Evan Jones
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Purple Multiple Forms template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="jquery.js"></script>
 <script>
-	$(document).ready(function() {
-		$("hidden").css("display: none");
-		$("#Button").click(function() {
-			$("hidden").remove();
-		});
-	});
+	function show() {
+		document.getElementById("data").style.display = 'block';
+	}
 	</script>
-	<style>
-	.hidden {
-
-	} 
+	<style type="text/css">
+		#data {
+			display : none;
+		}
 	</style>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -51,8 +47,8 @@ Author: Evan Jones
 									<div class="agileits-row2">
 										<input type="checkbox" id="brand" value="">
 									</div>	
-									<input type="submit" value="Check Database" id="Button">
-									<div class="hidden">
+									<input type="submit" value="Check Database" id="Button" onclick="show()">
+									<div id="data">
 										<p>Name: <b>Yosef Mountaineer</b></p>
 										<p>Location: <b>Boone, NC</b></p>
 										<p>Events Attended: <b>Greensboro, NC</b></p>
