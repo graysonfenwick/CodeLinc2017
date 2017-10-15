@@ -73,9 +73,13 @@ select EventLocation, EventProvider, FedFunded ,EventDate
 
 select EventLocation, EventProvider, FedFunded ,EventDate 
     from person, provider, event, attendance 
-    where PersonEmail = "cakeEater@gmail.com" and EventDate >= (CurDate() - INTERVAL 30 DAY) and Email = PersonEmail and EventLocation = Location and EventProvider = Provider and EventDate = Date and EventProvider = ProviderName;
+    where PersonEmail = "cakeEater@gmail.com" and EventDate >= (CurDate() - INTERVAL 30 DAY) and Email = PersonEmail and EventLocation = Location and EventProvider = Provider and EventDate = Date and EventProvider = ProviderName
+    ORDER BY EventDate DESC;
 
-
+select Location, Provider, FedFunded, Date
+    from event, provider
+    where Provider = ProviderName and Date >= (CurDate() - INTERVAL 30 DAY)
+    ORDER BY Date DESC;
 
 
 
