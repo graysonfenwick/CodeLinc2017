@@ -56,6 +56,7 @@ p{
 	color: white;
 }
 .button{
+	margin-right: 20px;
 	padding: 2px 30px 2px 30px;
 	border: 2px solid #117fa0;
 	background-color: #169ac3;
@@ -72,6 +73,7 @@ p{
 .paragraph{
 	width: 500px;
 	margin: 0 auto;
+	margin-bottom: 15px;
 	background-color: #1a1a1a;
 	padding: 10px;
 	-webkit-box-shadow: -6px 6px 2px 1px #1a1a1a; 
@@ -79,6 +81,11 @@ p{
 	-o-box-shadow: -6px 6px 2px 1px #1a1a1a;
 	-ms-box-shadow: -6px 6px 2px 1px #1a1a1a;
     box-shadow: -6px 6px 2px 1px #1a1a1a;
+}
+.img{
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 /*-- agileits-main --*/
@@ -226,6 +233,7 @@ p{
     padding: .6em 1em;
     -webkit-appearance: none;
     width: 100%; 
+	margin-bottom: 10px;
 }
 .login-form input[type="submit"]:hover {
     background: #47c5eb;#117fa0
