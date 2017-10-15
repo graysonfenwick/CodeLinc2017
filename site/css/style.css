@@ -38,7 +38,43 @@ h1 {
     color: #fff;
     font-weight: 100;
 	font-family: 'Cormorant Garamond', serif;
+	border: 2px solid #fff;
+	width: 57%;
 }
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;
+}
+a{
+	color: white;
+}
+.navBar{
+	padding-top: 10px;
+}
+.button{ 	
+	
+	padding-top: 10px;
+	padding-left: 170px;
+	padding-bottom: 10px;
+	padding-right: 170px;
+	
+	display: inline;
+	text-align: center;
+	border: 2px solid #117fa0;
+	background-color: #169ac3;
+}
+.button:hover{
+	background-color: #47c5eb;
+	color: #fff;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;	
+}
+
 /*-- agileits-main --*/
 .agileits-main {
     padding: 3em 0 0;
@@ -186,7 +222,7 @@ h1 {
     width: 100%; 
 }
 .login-form input[type="submit"]:hover {
-    background: #47c5eb;
+    background: #47c5eb;#117fa0
     color: white;
     border-color:#169ac3;
     transition: 0.5s all ;
