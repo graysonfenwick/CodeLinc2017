@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "awesomeman";
+$password = "RECANTED";
 
 $conn = mysqli_connect($servername, $username, $password, "Codelinc");
 // Check connection
