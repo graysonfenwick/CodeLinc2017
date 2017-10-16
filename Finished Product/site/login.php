@@ -3,7 +3,7 @@
 date_default_timezone_set("America/New_York");
 
 try {
-$db = new PDO('mysql:host=localhost;dbname=Codelinc;charset=utf8mb4', 'root', 'awesomeman');
+$db = new PDO('mysql:host=localhost;dbname=Codelinc;charset=utf8mb4', 'root', 'RECANTED');
 if ($db->connect_error) {
         die("Connection failed: " . $db->connect_error);
 }
